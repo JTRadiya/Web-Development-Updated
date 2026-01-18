@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>JavaScript Array&Methods</h1>
+        <p id="fruits">The fruits array: </p>
+        <p id="ascending">The ascending order: </p>
+        <p id="descending">The descending order: </p>
+
+        <script>
+            //Create an array
+            var fruits = ["Apple","Banana","Mango","Berry"]
+            document.getElementById("fruits").innerHTML+=fruits;
+
+            //sort this array
+             document.getElementById("ascending").innerHTML += fruits.sort();
+
+             //reverse this array
+              document.getElementById("descending").innerHTML += fruits.reverse();
+        </script>
+    </body>
+</html>
