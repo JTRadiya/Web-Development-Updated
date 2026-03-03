@@ -36,3 +36,26 @@ body {
     color: burlywood;
     text-align: center;
 }
+#contact-form {
+    max-width: 400px;
+    margin:2rem auto ;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+#contact-form input,#contact-form textarea {
+    width: 100px; padding: 0.5rem;
+}
+#contact-form button {
+    padding: o.5rem 1rem;
+    cursor: pointer;
+}
+button {
+    background-color:rgb(165, 78, 78) ;
+    color:rgb(238, 196, 146) ;
+    border: none;
+    border-radius: 4px;
+    margin-left: 180px;
+    width: 300px;
+}
